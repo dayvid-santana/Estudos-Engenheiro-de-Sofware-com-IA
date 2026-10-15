@@ -101,4 +101,8 @@ Estes temas podem esperar até que uma necessidade concreta apareça.
 - [Fine-Tuning](07-topicos-avancados/fine-tuning.md)
 - [LoRA](07-topicos-avancados/lora.md)
 
+## Governança e requisitos para software com agentes
+
+Nova trilha sobre preservar objetivos, regras de negócio e critérios de qualidade enquanto o software e o Harness evoluem: [Mapa de estudo](08-governanca-e-requisitos/00-mapa-de-estudo.md).
+
 [Como usar as notas](00-como-usar-as-notas.md)

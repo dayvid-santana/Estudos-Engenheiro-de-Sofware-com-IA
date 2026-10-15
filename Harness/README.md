@@ -13,6 +13,18 @@ Notas em português sobre **agent harness** e **harness engineering**: a infraes
 | [03-praticas-de-engenharia.md](03-praticas-de-engenharia.md) | estiver preparando um repositório ou melhorando um agente de código |
 | [04-seguranca-e-avaliacao.md](04-seguranca-e-avaliacao.md) | precisar limitar riscos, medir qualidade ou investigar falhas |
 | [05-glossario-e-fontes.md](05-glossario-e-fontes.md) | consultar termos e fontes primárias |
+| [06-estrategias-de-mitigacao.md](06-estrategias-de-mitigacao.md) | escolher controles práticos para reduzir os principais riscos |
+| [07-langchain.md](07-langchain.md) | usar LangChain com APIs de modelos, MCP e agentes em aplicações Python |
+
+## Como manter este conjunto
+
+- Regras para agentes e colaboradores: [AGENTS.md](AGENTS.md)
+- Estrutura reutilizável: [TEMPLATE.md](TEMPLATE.md)
+- Revisão antes de concluir: [REVISAO.md](REVISAO.md)
+- Checagem mecânica de extensão, tamanho, índice e links (a partir da raiz do workspace): `pwsh -File Harness/_tools/validar-notas.ps1`
+- Após toda solicitação que criar ou alterar arquivos, revise o escopo, faça um commit e depois push para o upstream da branch atual; veja a regra completa em [AGENTS.md](AGENTS.md).
+
+As notas temáticas são arquivos `.md` numerados e ligados neste índice. Elas visam leitura rápida: idealmente 300–900 palavras e no máximo 1.200. O diretório `_tools/` contém a automação de manutenção, não notas.
 
 ## Em 30 segundos
 
@@ -35,4 +47,4 @@ Ao depurar, pergunte: **faltou contexto? a ferramenta não era adequada? a permi
 6. Aumente autonomia gradualmente, guiada por evidência de qualidade e risco.
 7. Preserve revisão e responsabilidade humanas para mudanças de alto impacto.
 
-**Atualizado em:** 2026-10-13. Veja [fontes e limites](05-glossario-e-fontes.md). Conteúdo estruturado para leitura em poucos minutos e consulta por tópico.
+**Atualizado em:** 2026-10-15. Veja [fontes e limites](05-glossario-e-fontes.md). Conteúdo estruturado para leitura em poucos minutos e consulta por tópico.

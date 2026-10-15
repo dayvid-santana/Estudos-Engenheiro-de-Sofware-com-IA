@@ -1,5 +1,11 @@
 # 05 — Glossário e fontes
 
+## Em 30 segundos
+
+- Harness é a camada operacional ao redor do modelo; não é sinônimo de prompt ou framework.
+- Consulte o glossário para termos comuns e as fontes primárias para detalhes técnicos.
+- APIs e capacidades mudam; verifique documentação oficial e versão antes de implementar.
+
 ## Glossário rápido
 
 | Termo | Significado nestas notas |

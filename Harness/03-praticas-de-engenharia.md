@@ -1,5 +1,11 @@
 # 03 — Práticas de engenharia
 
+## Em 30 segundos
+
+- Deixe o repositório legível e os comandos de trabalho reproduzíveis.
+- Transforme regras importantes em checks automáticos sempre que possível.
+- Peça tarefas com critérios verificáveis e exija evidências na entrega.
+
 ## Preparar um repositório para agentes de código
 
 Objetivo: reduzir a necessidade de adivinhar e tornar decisões importantes verificáveis.

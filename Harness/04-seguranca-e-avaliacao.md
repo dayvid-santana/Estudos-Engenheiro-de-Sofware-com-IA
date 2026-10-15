@@ -1,5 +1,11 @@
 # 04 — Segurança, avaliação e operação
 
+## Em 30 segundos
+
+- O risco depende do que o agente pode acessar e executar, além do comportamento do modelo.
+- Use menor privilégio, isolamento e aprovação proporcional ao impacto da ação.
+- Avalie tarefas completas, registre eventos importantes e mantenha meios de interrupção e recuperação.
+
 ## Modelo de risco
 
 O risco vem do conjunto **modelo + Harness + ferramentas + dados + identidade + ambiente + pessoas/processos**. Quanto mais acesso e autonomia, maior pode ser o impacto de uma saída errada, de uma falha ou de conteúdo malicioso.

@@ -1,5 +1,11 @@
 # 01 — Conceitos essenciais
 
+## Em 30 segundos
+
+- Um agent harness envolve o modelo com contexto, estado, ferramentas, execução e controles.
+- Harness engineering é projetar e manter esse ambiente para que agentes sejam úteis, seguros e verificáveis.
+- Quando algo falha, investigue o modelo e as camadas ao redor dele.
+
 ## Definição curta
 
 Um **agent harness** é a camada de software que envolve um modelo e permite que ele trabalhe em uma tarefa: seleciona e fornece contexto, mantém estado, apresenta ferramentas, executa ou encaminha ações, aplica permissões e aprovações, observa resultados e controla o ciclo até uma condição de parada.

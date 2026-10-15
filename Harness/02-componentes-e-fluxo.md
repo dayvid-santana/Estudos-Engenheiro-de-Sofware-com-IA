@@ -1,5 +1,11 @@
 # 02 — Componentes e ciclo de execução
 
+## Em 30 segundos
+
+- O Harness liga o pedido ao modelo, às ferramentas e ao ambiente de execução.
+- Um ciclo típico valida o pedido, monta contexto, executa ações autorizadas e confere o resultado.
+- Limites, estado e observabilidade são necessários para interromper, recuperar e explicar a execução.
+
 ## Componentes comuns
 
 Os nomes variam entre plataformas. Use a lista como mapa funcional, não como arquitetura obrigatória.

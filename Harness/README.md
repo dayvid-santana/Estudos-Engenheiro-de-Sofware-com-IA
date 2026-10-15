@@ -6,6 +6,8 @@ Notas em português sobre **agent harness** e **harness engineering**: a infraes
 
 ## Mapa das notas
 
+Comece pelo [ROADMAP.md](ROADMAP.md) para escolher uma trilha e localizar conceitos. Há também mapas detalhados para [Harness](ROADMAP-HARNESS.md) e [LangChain, MCP e APIs](ROADMAP-LANGCHAIN.md).
+
 | Arquivo | Consulte quando… |
 |---|---|
 | [01-conceitos.md](01-conceitos.md) | precisar explicar o que é Harness, o que não é e por que importa |

@@ -32,6 +32,8 @@ Use antes de considerar completa uma nota nova ou uma alteração substancial.
 - [ ] Não duplica outras notas; links relacionados foram acrescentados quando ajudam?
 - [ ] O `README.md` foi atualizado com o link e uma descrição de uma linha?
 - [ ] A checagem mecânica passa (da raiz do workspace): `pwsh -File Harness/_tools/validar-notas.ps1`?
+- [ ] O roadmap geral e os roadmaps de tema aplicáveis apontam para os arquivos e seções corretos?
+- [ ] Novas notas aparecem no mapa de conceitos e nas trilhas relevantes, sem duplicar seu conteúdo?
 
 ## Git antes de concluir uma solicitação com mudanças em arquivos
 

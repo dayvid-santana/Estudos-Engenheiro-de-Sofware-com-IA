@@ -38,6 +38,14 @@ Use [TEMPLATE.md](TEMPLATE.md) como ponto de partida. A estrutura pode variar; m
 9. Faça um commit com mensagem clara para as alterações concluídas.
 10. Depois do commit, faça push do commit para o upstream configurado da branch atual.
 
+## Roadmaps e orientação de aprendizagem
+
+- Mantenha `ROADMAP.md` como ponto de entrada: trilhas por objetivo e mapa dos conceitos para as notas existentes.
+- Use `ROADMAP-TEMA.md` para trilhas específicas quando um tema tiver sequência, pré-requisitos ou objetivos próprios.
+- Inclua roadmaps no `README.md` e mantenha todos os links locais válidos.
+- Roadmaps orientam a leitura; não duplique explicações técnicas das notas. Declare pré-requisitos como recomendações quando não forem obrigatórios.
+- Indique etapas em termos de objetivo de aprendizagem e referência. Não marque progresso individual nem invente estados de conclusão.
+
 ### Regra obrigatória de Git
 
 Toda solicitação atendida que criar ou alterar arquivos neste conjunto termina com **commit e, em seguida, push**. Faça isso depois da revisão e das validações, antes de encerrar a solicitação. A regra vale também para alterações destas próprias instruções.
@@ -53,4 +61,5 @@ Toda solicitação atendida que criar ou alterar arquivos neste conjunto termina
 - Notas temáticas: `NN-kebab-case.md` (ex.: `08-novo-conceito.md`).
 - Índice: `README.md`.
 - Regras, template e checklist: nomes estáveis em maiúsculas, sempre `.md`.
+- Roadmap geral: `ROADMAP.md`; roadmaps temáticos: `ROADMAP-TEMA.md`, em Markdown.
 - Não renumere notas existentes só para reorganizar; atualize os links quando um nome realmente precisar mudar.

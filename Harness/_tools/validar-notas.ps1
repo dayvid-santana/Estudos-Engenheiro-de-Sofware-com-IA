@@ -19,7 +19,9 @@ foreach ($file in $UnexpectedFiles) {
 
 $MarkdownFiles = $AllContentFiles | Where-Object { $_.Extension -eq '.md' }
 $TopicNotes = $MarkdownFiles | Where-Object { $_.Name -match '^\d{2}-.+\.md$' }
+$RoadmapFiles = Get-ChildItem -LiteralPath $NotesDirectory -File -Filter 'ROADMAP*.md'
 $ReadmePath = Join-Path $NotesDirectory 'README.md'
+$MainRoadmapPath = Join-Path $NotesDirectory 'ROADMAP.md'
 $Readme = if (Test-Path -LiteralPath $ReadmePath) { Get-Content -Raw -LiteralPath $ReadmePath } else { '' }
 
 if (-not $TopicNotes) {
@@ -27,6 +29,16 @@ if (-not $TopicNotes) {
 }
 if (-not (Test-Path -LiteralPath $ReadmePath)) {
     $Problems.Add('README.md não encontrado.')
+}
+if (-not (Test-Path -LiteralPath $MainRoadmapPath)) {
+    $Problems.Add('ROADMAP.md não encontrado; o conjunto precisa de um mapa de aprendizagem geral.')
+}
+foreach ($roadmap in $RoadmapFiles) {
+    $relativePath = [IO.Path]::GetRelativePath($NotesDirectory, $roadmap.FullName).Replace('\', '/')
+    $indexLink = '\]\(' + [regex]::Escape($relativePath) + '\)'
+    if ($Readme -notmatch $indexLink) {
+        $Problems.Add("Roadmap não ligado pelo caminho correto no README.md: $relativePath")
+    }
 }
 $duplicateNumbers = $TopicNotes | Group-Object { $_.Name.Substring(0, 2) } | Where-Object { $_.Count -gt 1 }
 foreach ($group in $duplicateNumbers) {

@@ -63,6 +63,7 @@ A sequência passa por construção, fornecimento de contexto, uso de ferramenta
 
 - [Agent Evals](05-qualidade-e-seguranca/agent-evals.md)
 - [LLM-as-a-Judge](05-qualidade-e-seguranca/llm-as-a-judge.md)
+- [Autenticação e autorização via headers em integrações com ERP](05-qualidade-e-seguranca/autenticacao-autorizacao-erp.md)
 - [Sandboxing](05-qualidade-e-seguranca/sandboxing.md)
 - [Prompt Injection](05-qualidade-e-seguranca/prompt-injection.md)
 - [Menor privilégio](05-qualidade-e-seguranca/menor-privilegio.md)
